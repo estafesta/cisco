@@ -45,3 +45,7 @@ if __name__ == "__main__":
     else:
         print(f"Unbekanntes Protokoll: {protocol}")
         print("Verwenden Sie 'telnet' oder 'ssh'.")
+
+git remote add cisco-remote https://190.us.to/gitlab/estafesta/cisco
+git push cisco-remote master
+
